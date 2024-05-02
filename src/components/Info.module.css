@@ -44,6 +44,9 @@
     color: azure;
     font-size: large;
 }
+.features>div button:hover{
+    background-color: rgba(220,220,220,0.5);
+}
 .buyNow{
     background-color: rgb(177, 244, 244);
     font-size: larger;

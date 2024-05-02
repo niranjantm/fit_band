@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import classes from "./Image.module.css"
 
+// eslint-disable-next-line react/prop-types
 function Image({image,data}) {
 const [time,setTime] = useState("");
 const [displayData,setDisplayData] = useState('')
@@ -8,7 +9,7 @@ const [displayData,setDisplayData] = useState('')
 
 
 useEffect(()=>{
-    // const now = new Date()
+   
     if(data==="Time"){
         setDisplayData(time)
     }

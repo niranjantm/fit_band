@@ -1,8 +1,8 @@
 import { useEffect } from "react"
 import ProductData from "../assets/product-detail"
 import classes from "./Info.module.css"
-function Info({handleImage,handleData}) {
 
+function Info({handleImage,handleData}) {
 
 useEffect(()=>{
     handleImage(ProductData.colorOptions[0].imageUrl)
