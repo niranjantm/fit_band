@@ -1,0 +1,22 @@
+.topbar{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+ 
+}
+.topbarImg{
+  height: 70px;
+}
+.content{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  
+}
+@media screen and (max-width:600px) {
+    .content{
+      flex-direction: column;
+      align-items: center;
+    }
+}
